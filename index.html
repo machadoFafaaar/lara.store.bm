@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lara Store BM</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="img/lara.store.jpeg" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<script>
+
+function filtrar(categoria){
+
+const produtos =
+document.querySelectorAll('.produto');
+
+produtos.forEach(produto => {
+
+if(categoria === 'todos'){
+
+produto.style.display = 'block';
+
+}else{
+
+produto.style.display =
+produto.classList.contains(categoria)
+? 'block'
+: 'none';
+
+}
+
+});
+
+}
+
+</script>
+<body>
+
+<nav>
+
+<div class="logo">
+<img src="img/lara.store.jpeg">
+<h2>Lara Store BM</h2>
+</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#produtos">Produtos</a></li>
+<li><a href="sobre.html">Sobre</a></li>
+</ul>
+
+<a href="#produtos" class="btn-nav">Ver Produtos</a>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-left">
+
+<span class="tag">
+NOVA COLEÇÃO 2026
+</span>
+
+<h1>
+ESTILO
+<span>QUE MOVE</span>
+VOCÊ
+</h1>
+
+<p>
+Tênis premium com design moderno, conforto excepcional e qualidade superior.
+Conheça a Lara Store BM.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#produtos" class="btn-primary">
+Explorar Coleção
+</a>
+
+<a href="sobre.html" class="btn-secondary">
+Conheça nossa história →
+</a>
+
+</div>
+
+<div class="stats">
+
+<div>
+<h2>30+</h2>
+<p>Modelos</p>
+</div>
+
+<div>
+<h2>5★</h2>
+<p>Avaliações</p>
+</div>
+
+<div>
+<h2>Atacado</h2>
+<p>Disponível</p>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="hero-right">
+
+<div class="shoe-card">
+
+<img src="img/banner.png">
+
+<div class="best-seller">
+
+<span>Vários Modelos</span>
+
+<h3>O estilo que move você.</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="produtos">
+
+<h2 class="titulo">
+
+</a>
+<div class="marcas">
+
+    <button class="filtro ativo" data-marca="todos">Todos</button>
+
+    <button class="filtro" data-marca="nike">Nike</button>
+
+    <button class="filtro" data-marca="adidas">Adidas</button>
+
+    <button class="filtro" data-marca="puma">Puma</button>
+
+    <button class="filtro" data-marca="mizuno">Mizuno</button>
+
+    <button class="filtro" data-marca="newbalance">New Balance</button>
+
+    <button class="filtro" data-marca="lacoste">Lacoste</button>
+
+    <button class="filtro" data-marca="vans">Vans</button>
+
+    <button class="filtro" data-marca="outros">Outros</button>
+
+</div>
+
+</section>
+<div class="produtos-grid">
+
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/95.png">
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Nike Air Max 95</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto adidas">
+
+    <div class="produto-imagem">
+        <img src="img/ADDIZERO.png">
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">ADIDAS</span>
+
+        <h3>ADDIZERO</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 298,00</span>
+
+            <a class="btn-comprar"
+             href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/DN-white.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Nike Air Max DN 9</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/BALLELI.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Nike Baleli importado</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto mizuno">
+
+    <div class="produto-imagem">
+        <img src="img/MIZUNO 14.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">MIZUNO</span>
+
+        <h3>Mizuno 14</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/CORRIDA.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Nike de corrida esportivo importado</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/TN.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Nike Air Max TN</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto lacoste">
+
+    <div class="produto-imagem">
+        <img src="img/LACOSTE.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">LACOSTE</span>
+
+        <h3>Lacoste</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto newbalance">
+
+    <div class="produto-imagem">
+        <img src="img/NEW BALENCE ELITE.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">New Balence</span>
+
+        <h3>New Balance Elite</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/12 molas.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>12 Molas Importado</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/airforce.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>AirForce 1°linha</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto mizuno">
+
+    <div class="produto-imagem">
+        <img src="img/MIZUNO PRO.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">MIZUNO</span>
+
+        <h3>Mizuno PRO</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto puma">
+
+    <div class="produto-imagem">
+        <img src="img/PUMA.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">PUMA</span>
+
+        <h3>Puma 1°linha</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto newbalance">
+
+    <div class="produto-imagem">
+        <img src="img/NEWBALENCE.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NEW BALENCE</span>
+
+        <h3>New balance 1° linha</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/DRIFT.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Nike TN DRIFT</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto mizuno">
+
+    <div class="produto-imagem">
+        <img src="img/Mizuno 13.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">Mizuno</span>
+
+        <h3>Mizuno 13</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/muda de cor.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>12 molas Muda de cor</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/tn1.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Tn 1° linha</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto outros">
+
+    <div class="produto-imagem">
+        <img src="img/MCQUENN.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">MCQUEEN</span>
+
+        <h3>Alexander Mcqueen</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto outros">
+
+    <div class="produto-imagem">
+        <img src="img/ASICS.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">ASICS</span>
+
+        <h3>ASICS importado</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/importaddo.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>TN importado</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+</div>
+<div class="card-produto newbalance">
+
+    <div class="produto-imagem">
+        <img src="img/530.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NEW BALANCE</span>
+
+        <h3>New Balance 530</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto newbalance">
+
+    <div class="produto-imagem">
+        <img src="img/1000.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NEW BALANCE</span>
+
+        <h3>New Balance 1000</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/cortez.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Nike 95 Cortez</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/TUNED.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>TN Tuned AIR</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 298,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/JORDAN.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Jordan Low X</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 298,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto outros">
+
+    <div class="produto-imagem">
+        <img src="img/GUCCI.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">GUCCI</span>
+
+        <h3>Gucci</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 298,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/NOCTA.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Nike Nocta</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 298,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto adidas">
+
+    <div class="produto-imagem">
+        <img src="img/2000.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">ADIDAS</span>
+
+        <h3>Adidas 2000 Cores</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 278,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto adidas">
+
+    <div class="produto-imagem">
+        <img src="img/FORUM BRANCO.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">ADIDAS</span>
+
+        <h3>Forum Branco Premium</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 278,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto adidas">
+
+    <div class="produto-imagem">
+        <img src="img/SAMBA.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">ADIDAS</span>
+
+        <h3>Adidas Samba</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 278,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto adidas">
+
+    <div class="produto-imagem">
+        <img src="img/campus.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">ADIDAS</span>
+
+        <h3>Adidas Campus</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 278,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto adidas">
+
+    <div class="produto-imagem">
+        <img src="img/11.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">ADIDAS</span>
+
+        <h3>Adidzero Boston 11</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 298,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto adidas">
+
+    <div class="produto-imagem">
+        <img src="img/duramo.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">ADIDAS</span>
+
+        <h3>Adidzero Duramo</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 298,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto adidas">
+
+    <div class="produto-imagem">
+        <img src="img/YEESE.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">ADIDAS</span>
+
+        <h3>Yeezy Boost</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 298,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto newbalance">
+
+    <div class="produto-imagem">
+        <img src="img/NB900.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NEW BALENCE</span>
+
+        <h3>NB 9060</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 298,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto newbalance">
+
+    <div class="produto-imagem">
+        <img src="img/725.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NEW BALENCE</span>
+
+        <h3>NB 725</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto newbalance">
+
+    <div class="produto-imagem">
+        <img src="img/480.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NEW BALENCE</span>
+
+        <h3>NB 480</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto vans">
+
+    <div class="produto-imagem">
+        <img src="img/shocool.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">VANS</span>
+
+        <h3>KINU School </h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto vans">
+
+    <div class="produto-imagem">
+        <img src="img/OLDS.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">VANS</span>
+
+        <h3>OldSchool</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto vans">
+
+    <div class="produto-imagem">
+        <img src="img/ULTRA.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">VANS</span>
+
+        <h3>Ultra VR-3</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 278,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto puma">
+
+    <div class="produto-imagem">
+        <img src="img/180.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">PUMA</span>
+
+        <h3>Puma 180 Linha</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 278,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto puma">
+
+    <div class="produto-imagem">
+        <img src="img/park.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">PUMA</span>
+
+        <h3>Park</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 278,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto puma">
+
+    <div class="produto-imagem">
+        <img src="img/Suede.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">PUMA</span>
+
+        <h3>Suede XL</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 278,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/mid.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Borough Mid</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="card-produto nike">
+
+    <div class="produto-imagem">
+        <img src="img/dunk.png">
+        
+    </div>
+
+    <div class="info-produto">
+
+        <span class="marca">NIKE</span>
+
+        <h3>Dunk Low</h3>
+
+        <div class="card-bottom">
+
+            <span class="preco">R$ 420,00</span>
+
+            <a class="btn-comprar"
+            href="https://wa.me/5511986573393"
+            target="_blank">
+            →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+</section>
+</div>
+<script>
+
+const botoes = document.querySelectorAll(".filtro");
+
+const cards = document.querySelectorAll(".card-produto");
+
+botoes.forEach(botao => {
+
+  botao.addEventListener("click", () => {
+
+    botoes.forEach(btn =>
+      btn.classList.remove("ativo")
+    );
+
+    botao.classList.add("ativo");
+
+    const marca = botao.dataset.marca;
+
+    cards.forEach(card => {
+
+      if (marca === "todos") {
+
+        card.style.display = "block";
+
+      }
+
+      else if (card.classList.contains(marca)) {
+
+        card.style.display = "block";
+
+      }
+
+      else {
+
+        card.style.display = "none";
+
+      }
+
+    });
+
+  });
+
+});
+
+</script>
+
+</body>
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Logo -->
+        <div class="footer-col">
+            <div class="footer-logo">
+                <img src="img/lara.store.jpeg" alt="Lara Store">
+                <h3>Lara Store BM</h3>
+            </div>
+
+            <p>
+                Sua loja de tênis em Bom Jesus dos Perdões.
+                Qualidade, estilo e conforto em cada passo.
+            </p>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/larastore.bm/"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5511986573393"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <!-- Navegação -->
+        <div class="footer-col">
+            <h4>Navegação</h4>
+
+            <a href="#home">Home</a>
+            <a href="#produtos">Produtos</a>
+            <a href="sobre.html">Sobre</a>
+        </div>
+
+        <!-- Contato -->
+        <div class="footer-col">
+            <h4>Contato</h4>
+
+            <p>📍 Rua Leonídio Porcionato, 222 - Bom Jesus dos Perdões/SP</p>
+
+            <p>📞 (11) 98657-3393</p>
+
+            <p>✉️ larastore.bm@gmail.com</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Lara Store BM. Todos os direitos reservados.</p>
+
+        <span>Feito com ❤️ para os amantes de tênis</span>
+    </div>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</footer>
+</html>
